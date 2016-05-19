@@ -1,0 +1,14 @@
+Partlist exported from P:/PCB Design/ESP-XBee/ESP-XBee.sch at 25-03-2016 20:31
+
+Part      Value        Device                    Package        Description                                             
+C1        100uf        CAP_POL1206-KIT           EIA3216-KIT    Capacitor Polarized                                     
+C2        1uf          CAP0805                   0805           Capacitor                                               
+LOGO3     OSHW-LOGOS   OSHW-LOGOS                OSHW-LOGO-S    Open Source Hardware Logo                               
+MDL1                   ESP8266-12EESP8266-ESP12E ESP8266-ESP12E ESP8266-12E with additional I/O and GPIO04/05 corrected 
+R1        12k          RESISTOR0805-RES          0805           Resistor                                                
+R2        12k          RESISTOR0805-RES          0805           Resistor                                                
+R3        12k          RESISTOR0805-RES          0805           Resistor                                                
+R4        12k          RESISTOR0805-RES          0805           Resistor                                                
+R5        12k          RESISTOR0805-RES          0805           Resistor                                                
+SW1       434111043826 434111043826              434111043826   WS-TRS-6x3.5 mm SMD Tact Switch, 2 pins                 
+XBEE-BASE XBEE-2B1     XBEE-2B1                  XBEE-1         Xbee module footprints                                  
