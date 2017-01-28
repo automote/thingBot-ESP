@@ -14,8 +14,7 @@ The thingBot-ESP is based on Espressif ESP8266EX Wi-Fi SoC (System on Chip), fea
  * [XBee Compatible](https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf)
  * Compatible with Arduino IDE
  * 3.3V Vin
- * UART
- * SPI, I2C
+ * UART, SPI, I2C
  * On-board RESET
  
 ## Maintainers
