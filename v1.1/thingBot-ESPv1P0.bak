@@ -64,17 +64,6 @@ F 3 "" H 4000 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XBEE_MODULE U?
-U 1 1 5899D937
-P 4150 2550
-F 0 "U?" H 4200 2500 60  0000 C CNN
-F 1 "XBEE_MODULE" H 3750 3250 60  0000 C CNN
-F 2 "" H 4150 2550 60  0001 C CNN
-F 3 "" H 4150 2550 60  0001 C CNN
-	1    4150 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L ESP-12E U?
 U 1 1 589AC8FD
 P 7100 2300
@@ -112,8 +101,6 @@ Text Label 5950 2200 0    60   ~ 0
 CH_PD
 Text Label 5950 2300 0    60   ~ 0
 GPIO16
-Text Label 5950 2400 0    60   ~ 0
-GPIO14
 Text Label 5950 2500 0    60   ~ 0
 GPIO12
 Text Label 5950 2600 0    60   ~ 0
@@ -159,19 +146,17 @@ Text Label 5250 2000 2    60   ~ 0
 GPIO5
 Text Label 5250 2100 2    60   ~ 0
 GPIO4
-Text Label 5250 2200 2    60   ~ 0
-GPIO0
 Text Label 5250 2300 2    60   ~ 0
+GPIO0
+Text Label 5250 2200 2    60   ~ 0
 GPIO2
-Text Label 5250 2900 2    60   ~ 0
+Text Label 3100 2700 0    60   ~ 0
 ADC
 Text Label 5250 2400 2    60   ~ 0
-GPIO12
-Text Label 5250 2500 2    60   ~ 0
-GPIO13
-Text Label 5250 2700 2    60   ~ 0
 GPIO14
-Text Label 5250 2800 2    60   ~ 0
+Text Label 5250 2500 2    60   ~ 0
+GPIO12
+Text Label 5250 2900 2    60   ~ 0
 GPI015
 $Comp
 L R R?
@@ -276,7 +261,7 @@ Text Label 3300 4050 0    60   ~ 0
 GPIO0
 Text Label 4650 4400 1    60   ~ 0
 GND
-Text Label 3100 2700 0    60   ~ 0
+Text Label 5250 2700 2    60   ~ 0
 GPIO16
 Text Label 7600 4650 1    60   ~ 0
 GND
@@ -315,8 +300,6 @@ Wire Wire Line
 	6200 2200 5950 2200
 Wire Wire Line
 	6200 2300 5950 2300
-Wire Wire Line
-	6200 2400 5950 2400
 Wire Wire Line
 	6200 2500 5950 2500
 Wire Wire Line
@@ -363,10 +346,6 @@ Wire Wire Line
 	4950 2400 5250 2400
 Wire Wire Line
 	4950 2500 5250 2500
-Wire Wire Line
-	4950 2600 5250 2600
-Wire Wire Line
-	4950 2700 5250 2700
 Wire Wire Line
 	4950 2800 5250 2800
 Wire Wire Line
@@ -415,4 +394,23 @@ Wire Wire Line
 	4700 3950 4700 3750
 Text Label 4700 3750 3    60   ~ 0
 VCC
+$Comp
+L XBEE_MODULE U?
+U 1 1 5899D937
+P 4150 2550
+F 0 "U?" H 4200 2500 60  0000 C CNN
+F 1 "XBEE_MODULE" H 3750 3250 60  0000 C CNN
+F 2 "" H 4150 2550 60  0001 C CNN
+F 3 "" H 4150 2550 60  0001 C CNN
+	1    4150 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2400 5950 2400
+Text Label 5950 2400 0    60   ~ 0
+GPIO14
+Text Label 5250 2800 2    60   ~ 0
+GPIO13
+Wire Wire Line
+	4950 2700 5250 2700
 $EndSCHEMATC

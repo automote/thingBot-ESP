@@ -1,4 +1,4 @@
-update=2/8/2017 12:59:32 PM
+update=2/8/2017 7:45:15 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,18 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/bomma/Documents/GitHub/My Design templates/Pcb_Schematic_Worksheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../kicad-library/library
@@ -77,3 +65,15 @@ LibName35=crystal-new
 LibName36=4n35_opto
 LibName37=xbee
 LibName38=esp-12e
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/poornima/Documents/Kicad/mine22.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
