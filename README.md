@@ -23,3 +23,4 @@ The thingBot-SubGHz is maintained by thingTronics Innovations.
 
 Main contributor:
  * Lovelesh Patel @<lovelesh.patel@thingtronics.com>
+ * Poornima Nagesh @<poornima.nagesh@thingtronics.com>
