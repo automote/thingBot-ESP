@@ -1,4 +1,4 @@
-update=2/8/2017 7:45:15 PM
+update=02/09/17 11:05:56
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,15 +65,15 @@ LibName35=crystal-new
 LibName36=4n35_opto
 LibName37=xbee
 LibName38=esp-12e
-[general]
-version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/poornima/Documents/Kicad/mine22.kicad_wks
+PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Schematic_Worksheet.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
